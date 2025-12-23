@@ -1,0 +1,10 @@
+.idea
+*.docx
+__pycache__/
+*.py[cod]
+*$py.class
+Dockerfile
+docker-compose.yml
+README.md
+LICENSE
+.gitignore
