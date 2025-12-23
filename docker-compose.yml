@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  idu_tg_bot:
+    build: .
+    container_name: idu_tg_bot
+    env_file:
+      - .env.development
+    restart: unless-stopped
